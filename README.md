@@ -32,13 +32,13 @@ You should now have a project structure that resembles the following:
           README.md*
 
 ## Simple Tasks a la React
-1. React is component-based, and each component should be separated into its own file. Start this exercise by going to your "App.jsx" file in your src directory. Then, code a function component named "App", and return a simple JSX element inside of that component (Hint: start with something obvious, like a <h1> element). Don't forget to export your App component at the bottom of the file!
+1. React is component-based, and each component should be separated into its own file. Start this exercise by going to your "App.jsx" file in your src directory. Then, code a function component named "App", and return a simple JSX element inside of that component (Hint: start with something obvious, like a `<h1>` element). Don't forget to export your App component at the bottom of the file!
 
 2. Head to your terminal and start this React project with npm start. Make sure it renders your App component without any errors!
 
-  * Each time you save your files while completing these tasks, check the terminal and browser for compilation errors, and pay attention to what they are telling you. For example, if something is "undefined", why does React think that? What should be defined, and where?
+  _Each time you save your files while completing these tasks, check the terminal and browser for compilation errors, and pay attention to what they are telling you. For example, if something is "undefined", why does React think that? What should be defined, and where?
 
-  Make sure that the Chrome Developer Tools are open in your "localhost:3000" tab, and that you also have the React Developer Tools installed. You should be checking these as much as possible to not only troubleshoot these tasks, but to confirm your understanding of what you are doing. Note the React Developer tools will not activate unless they detect valid rendering React components. So if your terminal isn't running your React app with no errors, then they won't appear! *
+  Make sure that the Chrome Developer Tools are open in your "localhost:3000" tab, and that you also have the React Developer Tools installed. You should be checking these as much as possible to not only troubleshoot these tasks, but to confirm your understanding of what you are doing. Note the React Developer tools will not activate unless they detect valid rendering React components. So if your terminal isn't running your React app with no errors, then they won't appear!_
 
 3. Make a new component file named Greeter.jsx inside of your src/components/ directory. Have this also be a simple function component that returns a header. It should receive two props: phrase and name. And it needs to take these two props and display them in the returned header of this component. Something like: {props.phrase}, {props.name}! so you wind up with an output in the header: Hello there, Luke! for example.
 
