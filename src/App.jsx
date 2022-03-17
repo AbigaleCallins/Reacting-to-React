@@ -23,7 +23,7 @@ const App = () => {
                 <Greeter name="Dalphine" phrase="Hi" />
                 <Greeter name="Scobby" phrase="scobby snacks" />
 
-                <input type="text" value={username} onChange={e => setUsername(e.target.value)}/>
+                <input type="text" value={username} ""onChange={e => setUsername(e.target.value)}/>
 
                 <p>Welcome, {username} </p>
             </>
